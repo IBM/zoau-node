@@ -1,0 +1,47 @@
+<div class="form-header">
+    <h2>Browse, or Build a C PDS source file and run</h2>
+    <% if (Object.keys(info).length !== 0) { %>
+      <div style="border: 5px solid grey; margin-bottom: 10px;">
+        <h4>Build and Run Output:</h4>
+        <pre><%= info.output %></pre>
+      </div>
+    <% } %>
+</div>
+
+<form method="post" action="/" novalidate>
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+  <input class="input" id="filter" name="filter" type="text" value="<%= data.filter%>" />
+  <div class="form-actions">
+    <button class="btn" type="submit">Filter PDS</button>
+  </div>
+</form>
+
+<form method="post" action="/" novalidate>
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+  <input type="hidden" name="filter" id="filter" value="<%= data.filter %>">
+    <select name="filename" id="filename">
+        <% for (const i in data.files) { %>
+            <option value="<%= data.files[i] %>" <%= data.files[i] == data.selected ? 'selected=selected' : '' %>"> <%= data.files[i] %> </option>
+        <% } %>
+    </select>
+  <div class="form-actions">
+    <button class="btn" type="submit">Load</button>
+  </div>
+</form>
+
+<form method="post" action="/build" novalidate>
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+  <input type="hidden" name="filter" id="filter" value="<%= data.filter %>">
+  <input type="hidden" name="filename" id="filename" value="<%= data.selected %>">
+  <div class="form-field">
+    <label for="file">File</label>
+    <input class="input" id="file" name="file" readonly="true" type="text" value="<%= data.selected %>" />
+  </div>
+  <div class="form-field >
+    <label for="message">Contents</label>
+    <textarea class="input" id="contents" name="contents" rows="20" autofocus><%= data.contents %></textarea>
+  </div>
+  <div class="form-actions">
+    <button class="btn" type="submit">Save, Build and Run</button>
+  </div>
+</form>
