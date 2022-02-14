@@ -1,0 +1,42 @@
+{
+  "name": "zoau-node",
+  "version": "0.1.0",
+  "description": "Node.js APIs to IBM® Z Open Automation Utilitis (ZOAU)",
+  "engines": {
+    "node": ">=12.18.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "lint:fix": "eslint **/*.js --ignore-pattern node_modules/ --fix",
+    "postinstall": "node postinstall.js",
+    "pretest": "npm run lint",
+    "start-demo": "node demo/app.js",
+    "test": "mocha"
+  },
+  "repository": "IBM/zoau-node",
+  "keywords": [
+    "zos",
+    "z/OS",
+    "dataset",
+    "mvs",
+    "zoau"
+  ],
+  "author": "IBM",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-flash": "^0.0.2",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "node-fetch": "^2.6.1"
+  }
+}
