@@ -45,7 +45,7 @@ https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utiliti
 ```bash
 mkdir my-example-project && cd my-example-project
 npm init --yes
-npm install zoau-node
+npm install zoau
 ```
 
 2. Create a file named `listds.js` containing the following contents:
