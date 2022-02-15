@@ -1,7 +1,7 @@
 {
   "name": "zoau",
   "version": "0.1.0",
-  "description": "Node.js APIs for IBM® Z Open Automation Utilitis (ZOAU)",
+  "description": "Node.js APIs for IBM® Z Open Automation Utilities (ZOAU)",
   "engines": {
     "node": ">=12.18.0"
   },

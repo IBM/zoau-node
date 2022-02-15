@@ -1,4 +1,4 @@
-# zoau - A node module for Z Open Automation Utilities (ZOAU)
+# zoau - A Node.js module for Z Open Automation Utilities (ZOAU)
 
 ## Table of Contents
 
