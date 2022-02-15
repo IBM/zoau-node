@@ -16,10 +16,10 @@ to documentation, code, binary files, etc.
 
 No pull request can be merged without being reviewed and approved.
 
-If you are looking to contribute to zoau-node development, follow these steps
+If you are looking to contribute to zoau Node.js development, follow these steps
 to set up your development environment:
 
-### Cloning and Building zoau-node
+### Cloning and Building 
 
 1. Follow the instructions in
 https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utilities to install
@@ -38,7 +38,7 @@ export LIBPATH=<path_to_zoau>/lib:$LIBPATH
 $ git clone git@github.com/IBM/zoau-node
 ```
 
-3. Install the dependencies required for zoau-node.
+3. Install the dependencies required for zoau Node.js development.
 
 ```bash
 $ cd zoau-node
@@ -47,7 +47,7 @@ $ npm install
 
 ## Tests
 
-Verify that zoau-node is working by running the test suite.
+Verify that the zoau Node.js module s working by running the test suite.
 
 ```bash
 $ npm test

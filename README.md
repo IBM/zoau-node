@@ -1,4 +1,4 @@
-# zoau-node - A node module for Z Open Automation Utilities (ZOAU)
+# zoau - A node module for Z Open Automation Utilities (ZOAU)
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## Overview
 
-zoau-node is a node module that exposes the Z Open Automation Utilities (ZOAU)
+zoau - a node module that exposes the Z Open Automation Utilities (ZOAU)
 APIs in Node.js!
 
 ## System Requirements
@@ -41,7 +41,7 @@ https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utiliti
 
 ## Quick Start
 
-1. Create a Node.js project directory and install the zoau-node module:
+1. Create a Node.js project directory and install the zoau Node.js module:
 ```bash
 mkdir my-example-project && cd my-example-project
 npm init --yes
@@ -71,18 +71,18 @@ TODO
 
 ## Contributing
 
-See the zoau-node [CONTRIBUTING.md file](CONTRIBUTING.md) for details.
+See the zoau [CONTRIBUTING.md file](CONTRIBUTING.md) for details.
 
 ## Legalities
 
-zoau-node is available under the Apache 2.0 license. See the [LICENSE 
+The zoau Node.js module is available under the Apache 2.0 license. See the [LICENSE 
 file](LICENSE) file for details
 
 ### Copyright
 
 ```
 Licensed Materials - Property of IBM
-zoau-node
+zoau
 (C) Copyright IBM Corp. 2020. All Rights Reserved.
 US Government Users Restricted Rights - Use, duplication
 or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.

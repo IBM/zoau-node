@@ -1,4 +1,4 @@
-name: "ZOAU Node Bug report"
+name: "ZOAU Node.js Module Bug report"
 description: Create a report to help us improve
 body:
   - type: markdown
@@ -6,14 +6,14 @@ body:
       value: |
         Thank you for reporting an issue.
 
-        This issue tracker is for bugs and issues found within zoau-node.
+        This issue tracker is for bugs and issues found within the zoau Node.js module.
 
         Please fill in as much of the form below as you're able.
   - type: input
     attributes:
-      label: zoau-node version
+      label: zoau Node.js module version
       description: |
-        version of zoau-node installed
+        version of zoau Node.js module installed
   - type: input
     attributes:
       label: Node.js Version

@@ -115,5 +115,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Since zoau-node will be a library, package-lock.json will not be published.
+# Since zoau will be a library, package-lock.json will not be published.
 package-lock.json
