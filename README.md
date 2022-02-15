@@ -13,7 +13,7 @@
 
 ## Overview
 
-zoau - a node module that exposes the Z Open Automation Utilities (ZOAU)
+zoau - a Node.js module that exposes the Z Open Automation Utilities (ZOAU)
 APIs in Node.js!
 
 ## System Requirements

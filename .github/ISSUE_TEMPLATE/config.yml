@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: ZOAU Node.js Module Feature requests
+    url: https://github.com/IBM/zoau-node/discussions
+    about: Please open a discussion to request a feature enhancement
   - name: IBM® Z Open Automation Utilities (ZOAU)
     url: https://github.com/IBM/zoau
     about: Please report ZOAU core issues here
