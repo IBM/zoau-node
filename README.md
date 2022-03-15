@@ -24,7 +24,7 @@ APIs in Node.js!
 - IBM® SDK for Node.js - z/OS® 14.15.1 or higher or IBM Open Enterprise SDK for Node.js 16.0 or higher
 - z/OS V2R3 or higher
 - ZOAU v1.1.0 or higher is required on the system.
-  - [For more details, see the zoau documentation.](https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utilities)
+  - For more details, [see the zoau documentation.](https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utilities)
 
 ## Build and Install
 
@@ -40,7 +40,7 @@ export PATH=<path_to_zoau>/bin:$PATH
 export LIBPATH=<path_to_zoau>/lib:$LIBPATH
 ```
 
-[For more details on setting up ZOAU, see the documentation.](https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utilities)
+For more details on setting up ZOAU, [see the documentation.](https://www.ibm.com/docs/en/zoau/latest?topic=installing-configuring-zoa-utilities)
 
 ## Quick Start
 
