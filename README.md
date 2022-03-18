@@ -70,6 +70,10 @@ For more details on setting up ZOAU, [see the documentation.](https://www.ibm.co
     node listds.js
     ```
 
+## More Examples
+
+- [Managing files in a partitioned dataset with the zoau Node.js module](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/wayne-zhang1/2022/03/17/managing-files-partitioned-dataset-zoau-nodejs)
+
 ## API Documentation
 
 TODO
