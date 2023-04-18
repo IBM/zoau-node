@@ -142,7 +142,7 @@ async function testExecuteAuthorizedOutputToPDSMember() {
   let res = await mvscmd._executeAuthorized('IDCAMS', '', dds);
   console.log(`res = ${JSON.stringify(res)}\n`);
   assert.equal(res['rc'], 0); // if no catalog, rc would be 4
-  let contents = await dataset.read(`'${dsn}(MEM1)'`);
+  let contents = await dataset.read(`${dsn}(MEM1)`);
   assert.equal(contents.includes('THE NUMBER OF ENTRIES PROCESSED WAS'), true);
 }
 
